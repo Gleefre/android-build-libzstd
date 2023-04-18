@@ -1,0 +1,10 @@
+Usage:
+ABI=all ./make-zstd.sh
+
+or you can specify just one platform:
+ABI=x86_64 ./make-zstd.sh
+
+Possible ABIs: x86, x86_64, arm64-v8a, armeavi-v7a.
+
+The compiled shared library will be in the lib/$ABI/ folder.
+Headers are copied to headers/ folder.

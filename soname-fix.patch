@@ -1,0 +1,13 @@
+diff --git a/zstd/lib/Makefile b/zstd/lib/Makefile
+index a4cf61a..871e64b 100644
+--- a/zstd/lib/Makefile
++++ b/zstd/lib/Makefile
+@@ -78,7 +78,7 @@ else
+   ifeq ($(UNAME), AIX)
+     SONAME_FLAGS =
+   else
+-    SONAME_FLAGS = -Wl,-soname=libzstd.$(SHARED_EXT).$(LIBVER_MAJOR)
++    SONAME_FLAGS = -Wl,-soname=libzstd.$(SHARED_EXT)
+   endif
+   SHARED_EXT = so
+   SHARED_EXT_MAJOR = $(SHARED_EXT).$(LIBVER_MAJOR)
