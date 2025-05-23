@@ -9,7 +9,7 @@ else
     if [ ! -f v$version.zip ]; then
         wget https://github.com/facebook/zstd/archive/refs/tags/v$version.zip
     fi
-    # Clean old folders if tehy exist
+    # Clean old folders if they exist
     rm -rf zstd
     rm -rf zstd-$version
     # Unpack
