@@ -6,5 +6,5 @@ ABI=x86_64 ./make-zstd.sh
 
 Possible ABIs: x86, x86_64, arm64-v8a, armeavi-v7a.
 
-The compiled shared library will be in the lib/$ABI/ folder.
-Headers are copied to headers/ folder.
+The compiled shared library is copied to the lib/$ABI/ folder.
+Headers are copied to the headers/ folder.
